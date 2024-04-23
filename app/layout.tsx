@@ -11,9 +11,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <footer className='py-10 flex justify-cente  items-center'>
+        {/* <footer className='py-10 flex justify-cente  items-center'>
           Un Footer hecho con amor
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
