@@ -17,8 +17,10 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
-/* En tu archivo global.css o donde sea que definas tus estilos */
 body {
   font-family: 'Montserrat', sans-serif;
-  /* No necesitas importar la fuente en tus archivos de componentes */
+}
+
+h1, h2, h3 {
+  font-family: 'Lusitana', serif;
 }
