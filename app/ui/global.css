@@ -19,8 +19,12 @@ input[type='number']::-webkit-outer-spin-button {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: rgb(44, 87, 207);
+  background-color:  rgb(39, 39, 40);
 }
 
 h1, h2, h3 {
-  font-family: 'Lusitana', serif;
+  color: #000000;
+  background-color: rgb(234, 239, 238);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
