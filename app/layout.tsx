@@ -1,3 +1,7 @@
+import React from 'react';
+// import { montserrat } from './ui/fonts'; // Asegúrate de que la ruta de importación es correcta
+import './ui/global.css'; //con esta linea creamos estilos increible
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +9,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer className='py-10 flex justify-cente  items-center'>
+          Un Footer hecho con amor
+        </footer>
+      </body>
     </html>
   );
 }
